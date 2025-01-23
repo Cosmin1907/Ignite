@@ -4,5 +4,6 @@
 
 {% block content %}
     <h2>This is the Home Page</h2>
-    <p>Welcome to the homepage of your Ignite Flask App!</p>
+     <!-- Add the logo -->
+     <img src="{{ url_for('static', filename='img/logo.webp') }}" alt="Logo" width="200">
 {% endblock %}
